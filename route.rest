@@ -1,0 +1,30 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/622357e28220e6ea0d5bbeb1
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+
+    "name": "Rashedul Islam",
+    "email": "techbabu@gmail.com"
+}
+
+
+###
+
+DELETE http://localhost:3000/users/622357e28220e6ea0d5bbeb1
+
+###
+
+PATCH  http://localhost:3000/users/62235bad8fef592d74e55069
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
